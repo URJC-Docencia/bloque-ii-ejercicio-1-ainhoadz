@@ -269,7 +269,7 @@ public class LCRSTree<E> implements NAryTree<E> {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
-    private void breadthFirstTraversal(LCRSnode<E> root, List<Position<E>> positions) {
+    /*private void breadthFirstTraversal(LCRSnode<E> root, List<Position<E>> positions) {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
@@ -279,7 +279,7 @@ public class LCRSTree<E> implements NAryTree<E> {
 
     private void preOrderTraversal(LCRSnode<E> node, List<Position<E>> positions) {
         throw new UnsupportedOperationException("Not supported yet.");
-    }
+    }*/
 
     public int size() {
         return this.size;
