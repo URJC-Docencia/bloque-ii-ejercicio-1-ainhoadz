@@ -211,6 +211,29 @@ public class LinkedTree<E> implements NAryTree<E> {
         }
     }
 
+
+    public Iterator<Position<E>> iteratorPreOrder() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+
+    public Iterator<Position<E>> iteratorPostOrder() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    private void breadthFirstTraversal(TreeNode<E> root, List<Position<E>> positions) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    private void postOrderTraversal(TreeNode<E> root, List<Position<E>> positions) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    private void preOrderTraversal(TreeNode<E> node, List<Position<E>> positions) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+
     public int size() {
         return size;
     }

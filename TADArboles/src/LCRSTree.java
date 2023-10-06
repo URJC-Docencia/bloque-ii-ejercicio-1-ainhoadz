@@ -250,8 +250,34 @@ public class LCRSTree<E> implements NAryTree<E> {
         return node == this.root;
     }
 
+    /**
+     * Return an iterator of all elements stored at the nodes of the tree.
+     * The iterator traverses the tree in breadth-first order.
+     * @return an iterator of the tree's elements
+     */
     @Override
     public Iterator<Position<E>> iterator() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    public Iterator<Position<E>> iteratorPreOrder() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+
+    public Iterator<Position<E>> iteratorPostOrder() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    private void breadthFirstTraversal(LCRSnode<E> root, List<Position<E>> positions) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    private void postOrderTraversal(LCRSnode<E> root, List<Position<E>> positions) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    private void preOrderTraversal(LCRSnode<E> node, List<Position<E>> positions) {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
